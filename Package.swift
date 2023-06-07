@@ -7,12 +7,12 @@ let package = Package(
     name: "Reachability",
     products: [
         .library(
-            name: "Reachability",
-            targets: ["Reachability"]),
+            name: "ReachabilityLib",
+            targets: ["ReachabilityTar"]),
     ],
     targets: [
         .target(
-            name: "Reachability",
+            name: "ReachabilityTar",
             dependencies: [],
             path: "Sources"),
         .testTarget(
